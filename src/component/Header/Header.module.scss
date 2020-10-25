@@ -1,0 +1,117 @@
+.headerTop{
+    // text-align: center;
+    display: flex;
+    background-color: #131921;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        .sideMenuButton{
+            color:white;
+            border: 1px solid rgba(255, 255, 255, .4);
+            border-radius: 5px;
+            margin-right: 5px;
+            padding: 5px;
+            &:hover{
+                border-color: rgba(255, 255, 255, 1);
+                cursor: pointer;
+            }
+        }
+        img{
+            width: 100px;
+            height: 40px;
+            // margin-top: 13px;
+        }
+    }
+    .search{
+        display: flex;
+        height: 40px;
+        margin-left: auto;
+        select{
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        input{
+            width: 650px;
+        }
+        .icon{
+            background-color: #FEBD69;
+            padding: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            display: flex;
+            align-items: center;
+            &:hover{
+                cursor: pointer;
+                background-color: darken(#FEBD69,10%);
+            }
+        }
+    }
+    .nav{
+        color: white;
+        display: flex;
+        align-items: center;
+        .option{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            .optionLineTwo{
+                font-weight: bold;
+            }
+            .languageOption{
+                .languageFlag{
+                    width: 26px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.HeaderBottom{
+    background-color: #232F3E;
+    // height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .deliverTo{
+        display: flex;
+        align-items: center;
+        line-height: 17px;
+        .icon{
+            margin-right: 5px;
+        }
+        .locationLabel{
+
+            .location{
+                font-weight: bold;
+            }
+        }
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        .option{
+            margin-right: 15px;
+        }
+    }
+    .amazonCovid{
+       a{
+            color: white;
+            text-decoration: none;
+       }
+    }
+}

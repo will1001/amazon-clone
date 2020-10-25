@@ -1,0 +1,165 @@
+.headerTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #131921;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.headerTop .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerTop .logo .sideMenuButton {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.headerTop .logo .sideMenuButton:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.headerTop .logo img {
+  width: 100px;
+  height: 40px;
+}
+
+.headerTop .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  margin-left: auto;
+}
+
+.headerTop .search select {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.headerTop .search input {
+  width: 650px;
+}
+
+.headerTop .search .icon {
+  background-color: #FEBD69;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerTop .search .icon:hover {
+  cursor: pointer;
+  background-color: #fea736;
+}
+
+.headerTop .nav {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerTop .nav .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+}
+
+.headerTop .nav .option .optionLineTwo {
+  font-weight: bold;
+}
+
+.headerTop .nav .option .languageOption .languageFlag {
+  width: 26px;
+}
+
+.headerTop .nav .option .languageOption:hover {
+  cursor: pointer;
+}
+
+.HeaderBottom {
+  background-color: #232F3E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.HeaderBottom .deliverTo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 17px;
+}
+
+.HeaderBottom .deliverTo .icon {
+  margin-right: 5px;
+}
+
+.HeaderBottom .deliverTo .locationLabel .location {
+  font-weight: bold;
+}
+
+.HeaderBottom .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.HeaderBottom .nav .option {
+  margin-right: 15px;
+}
+
+.HeaderBottom .amazonCovid a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Header.module.css.map */
