@@ -1,0 +1,17 @@
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: #485769;
+    color: white;
+    display: flex;
+    justify-content: center;
+    span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &:hover{
+        background-color: lighten(#485769,11);
+        cursor: pointer;
+    }
+}

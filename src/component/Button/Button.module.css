@@ -1,0 +1,52 @@
+.button__container {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  font-size: 13px;
+  height: 20px;
+}
+
+.button__container .front__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.button__container span {
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.button__container .dropdown_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0px;
+}
+
+.button__container .dropdown_button .iconUp {
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+}
+
+.button__container .dropdown_button .iconDown {
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+}
+/*# sourceMappingURL=Button.module.css.map */

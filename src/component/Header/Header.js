@@ -10,13 +10,13 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import MenuIcon from '@material-ui/icons/Menu';
 import RoomIcon from '@material-ui/icons/Room';
 
-function Header() {
+function Header(props) {
   return (
     <>
       <div className={styles.headerTop}>
         <div className={styles.logo}>
           <div className={styles.sideMenuButton}>
-            <MenuIcon/>
+            <MenuIcon onClick={props.clickSideBar} />
           </div>
           <img src="https://onlinebusinessmanager.com/wp-content/uploads/2018/09/white-amazon-logo-png-6.png" alt="logo" />
         </div>
@@ -88,7 +88,7 @@ function Header() {
           </div> 
         </div>
         <div className={styles.amazonCovid}>
-        <a href="">Amazon's response to COVID-19</a>
+        <a href="#0">Amazon's response to COVID-19</a>
       </div>
       </div>
     </>

@@ -1,0 +1,32 @@
+.container{
+    .sideBar{
+        width: 500px;
+        height: 100vh;
+        background-color: green;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    .overlay__layer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 997;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .close__icon{
+            position: absolute;
+            top: 10px;
+            left: 510px;
+            z-index: 999;
+            color: white;
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+        }
+}

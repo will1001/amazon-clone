@@ -1,0 +1,29 @@
+.container .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-decoration: none;
+}
+
+.container .link:hover {
+  text-decoration: underline;
+}
+
+.container .link .title {
+  font-weight: bold;
+  font-size: 11px;
+  opacity: 0.7;
+  width: 100px;
+}
+
+.container .link .subTitle {
+  font-size: 10px;
+  opacity: 0.5;
+  width: 70px;
+}
+/*# sourceMappingURL=FooterLink.module.css.map */
